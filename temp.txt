@@ -1,0 +1,53 @@
+                <div className="container portfolioContainer animated fadeIn finishedProjects">
+                    <div className="row">
+                    <div className="col-lg-4 col-12">
+                            <div className="projectItem">
+
+                                <div className="imageHolder">
+                                
+                                </div>
+                                <div className="title">
+                                    Tytu³
+                                </div>
+                                
+                                <div className="readMore">
+                                    Zobacz ...
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-12">
+                            <div className="projectItem">
+
+                                <div className="imageHolder">
+                                
+                                </div>
+                                <div className="title">
+                                    Tytu³
+                                </div>
+                                
+                                <div className="readMore">
+                                    Zobacz ...
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-12">
+                            <div className="projectItem">
+
+                                <div className="imageHolder">
+                                
+                                </div>
+                                <div className="title">
+                                    Tytu³
+                                </div>
+                                
+                                <div className="readMore">
+                                    Zobacz ...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p className="projectsTitle animated fadeIn secondTitle">
+                    Prace w toku...
+                </p>
