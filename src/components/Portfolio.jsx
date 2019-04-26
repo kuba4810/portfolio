@@ -12,7 +12,7 @@ class Portfolio extends React.Component{
             marginLeft: '10%'
         }
         return(
-            <div className="portfolioContainer">
+            <div className="portfolioContainer animated">
 
                 
                 <div className="pt-item pt-grid animated fadeIn"  style={styleLeft}>
@@ -32,6 +32,25 @@ class Portfolio extends React.Component{
                     <div className="websiteLink item4"> <a href="http://www.suszkwiatowy.pl/Silownie" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
                 </div>
 
+                <div className="pt-item pt-grid animated fadeIn" style={styleRight}>
+                    <div className="titleBar item1">Twoje notatki</div>
+                    <div className="imgHolder item2">
+                        <img src={require("../images/pt_notes.png")} alt=""/>                        
+                        <div className="overlay">                               
+                                <a href="http://www.lambert.pl" target="_blank">Odwiedź Notatki</a>
+                            </div>                      
+                    </div>
+                    <div className="description item3">
+                        Twoje notatki to strona umożliwiająca tworzenie i zarządzanie notatkami.
+                        Udostępnia również harmonogram dzięki któremu można rozplanować każdy dzień. 
+                        <br/>
+                        <br/>
+                        Kolorowe notatki z etykietami oraz kategoriami umożliwia w łatwy sposób zaplanować Twój dzień.
+
+                    </div>
+                    <div className="websiteLink item4"> <a href="http://www.lambert.pl" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
+                </div>
+
                   <div className="pt-item pt-grid animated fadeIn" style={styleRight}>
                     <div className="titleBar item1">Foto Lambert</div>
                     <div className="imgHolder item2">
@@ -48,7 +67,7 @@ class Portfolio extends React.Component{
                 </div>
 
 
-                 <div className="pt-item pt-grid animated fadeIn"  style={styleLeft}>
+                 {/* <div className="pt-item pt-grid animated fadeIn"  style={styleLeft}>
                     <div className="titleBar item1">Fashion Blog</div>
                     <div className="imgHolder item2">
                         <img src={require("../images/pt_blog.png")} alt=""/>                        
@@ -61,7 +80,7 @@ class Portfolio extends React.Component{
                         wspaniałe galerie zdjęciowe, które przykuwają oko.
                     </div>
                     <div className="websiteLink item4"> <a href="javascript:(void);"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
-                </div>
+                </div> */}
 
             </div>
         );

@@ -11,7 +11,7 @@ class About extends React.Component{
    
     render(){
         return(
-            <div>
+            <div class="aboutContainer">
                 <div className="container-fluid">
                     <div className="row aboutMeParagraph">
                         
@@ -43,7 +43,7 @@ class About extends React.Component{
 
                   <div className="row sectionBreakerRow">
                   
-                    <div className="col-11">
+                    <div className="col-12">
                          <div className="sectionBreaker animated fadeIn" onClick={this.scrollDown.bind(null,700)}>
                          <i class="fas fa-arrow-down"></i>  Edukacja <i class="fas fa-arrow-down"></i>
                          </div>                   
@@ -56,8 +56,8 @@ class About extends React.Component{
                      duration=".7s"
                      animateOnce="true"> 
 
-                    <div className="row">                
-                        <div className="col-11 education">
+                    <div className="row educationRow">                
+                        <div className="col-11 education animated">
                             <div className="educationImage" id="zsp">
                             </div>
                             <div>
@@ -78,7 +78,7 @@ class About extends React.Component{
                 animateOnce="true"> 
                   <div className="row">
                    
-                            <div className="col-11 education">
+                            <div className="col-11 education animated">
                             <div className="educationImage" id="pwsz">
                             </div>
                             <div>
@@ -114,7 +114,7 @@ class About extends React.Component{
                   <div className="row">
                     <div className="col-1"></div>
                    
-                            <div className="col-10 interesting">
+                            <div className="col-10 interesting animated">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
@@ -138,7 +138,7 @@ class About extends React.Component{
                   <div className="row">
                     <div className="col-1"></div>
                    
-                            <div className="col-10 interesting">
+                            <div className="col-10 interesting animated">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 

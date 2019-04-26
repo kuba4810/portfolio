@@ -32,7 +32,7 @@ class Skills extends React.Component{
         return(
             <div className="skillContainer animated fadeIn">
 
-                <div className="skillContainerTitle">
+                <div className="skillContainerTitle animated">
                     Technologie których używam
                 </div>
               <div className="skillGrid ">
